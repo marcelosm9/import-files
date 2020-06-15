@@ -1,0 +1,9 @@
+<form>
+    <div class="form-group">
+        <label for="forFile" id="forFileLabel">Selicione um arquivo (.csv, .xlsx:)</label>
+        <input type="file" class="form-control-file" id="forFile" (change)="onChange($event)">
+    </div>
+    <div>
+        <input type="button" class="form-control-button" value="Upload" (click)="onUpload()">
+    </div>
+</form>
